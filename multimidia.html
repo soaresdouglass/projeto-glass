@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimídia</title>
+   <link rel="stylesheet" href="estilo/estilo.css">
+   <link rel="stylesheet" href="estilo/media.css">
+   <link rel="stylesheet" href="estilo/responsivo.css">
+   <script  src="javascript/funcoes.js"> </script>
+</head>
+<body>
+    <div id="interface">
+         
+        <!--Cabeçalho-->
+    
+        <header id="cabecalho">
+            <hgroup class="grupo">
+                <h1>Google Glass</h1>
+                <h2 >A revolução do Google está chegando</h2>
+            </hgroup>
+            <img id="icone" src="imagens/multimidia.png" alt="oculos">
+
+            <!--Menu-->
+           <nav id="menu">
+                <ul type="none" >
+                   <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/multimidia.png')"> <a href="index.html">Home</a></li>
+
+                   <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/multimidia.png')"> <a href="specs.html">Especificações</a></li>
+
+                    <li onmouseover="mudaFoto('imagens/fotos.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+
+                    <li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+
+                    <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="fale-conosco.html">Fale Conosco</a></li>
+                   
+                </ul>
+            </nav>
+        </header>
+       
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                    <h3>Glass > Multimídia</h3>
+                    <h1 id="sub-h1">Sons e Vídeos</h1>
+                    </hgroup>
+                </header>
+         <!--Conteudo-->
+    <div id="tv-radio">
+    <audio id="musica" src="media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg" controls> Desculpe, não foi possivel reproduzir</audio>
+
+    <video id="filme" src="media/getting-started.mp4" type="video/mp4" controls poster="imagens/video-mini03.jpg">Desculpe, não foi possivel reproduzir</video>
+
+    </div>
+
+    <!--rodapé-->
+    <footer id="rodape"><p>Site Criado por <a href="https://www.linkedin.com/in/soares-douglass/" target="_blank">Douglas Soares</a> para atividade em aula do <a href="https://www.youtube.com/cursoemvideo" target="_blank">Cursoemvideo</a></p>
+    </footer>
+    </div>
+</body>
+</html>

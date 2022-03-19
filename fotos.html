@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos</title>
+   <link rel="stylesheet" href="estilo/estilo.css">
+   <link rel="stylesheet" href="estilo/fotos.css">
+   <link rel="stylesheet" href="estilo/responsivo.css">
+   <script  src="javascript/funcoes.js"> </script>
+</head>
+<body>
+    <div id="interface">
+         
+        <!--Cabeçalho-->
+    
+    <header id="cabecalho">
+        <hgroup class="grupo">
+            <h1>Google Glass</h1>
+            <h2 >A revolução do Google está chegando</h2>
+        </hgroup>
+        <img id="icone" src="imagens/fotos.png" alt="oculos">
+
+        <!--Menu-->
+        <nav id="menu">
+            <ul type="none" >
+                <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/fotos.png')"> <a href="index.html">Home</a></li>
+
+                <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/fotos.png')"> <a href="specs.html">Especificações</a></li>
+
+                <li onmouseover="mudaFoto('imagens/fotos.png')" onmouseout="mudaFoto('imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
+
+                <li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/fotos.png')"><a href="multimidia.html">Multimídia</a></li>
+
+                <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/fotos.png')"><a href="fale-conosco.html">Fale Conosco</a></li>
+                
+            </ul>
+        </nav>
+     </header>
+    <div id="conteudo">
+     <section id="corpo-full">
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup> 
+                <h3>Glass > Fotos</h3>
+                <h1 id="sub-h1">Galeria de Imagens do Google Glass</h1>
+                </hgroup>
+            </header>
+            <!--Conteudo-->
+            <p>Veja na nossa galeria de fotos várias belas imagens que mostram algumas das principais características do Google Glass, como recursos e propriedades que estão impressionando o mundo inteiro. Basta passar o mouse sobre uma das fotos para ver uma versão ampliada e com uma breve descrição.</p>
+            
+            <ul id="album-fotos" type="none">
+                
+                <li id="foto01" ><span>Agenda e lembretes</span></li>
+                    <li id="foto02"><span>Sergey Brin usando o Glass</span></li>
+               
+                 <li id="foto03"><span>Leve e compacto</span></li>
+
+                 <li id="foto04"><span>Sensação de uma tela de 50"</span></li>
+               
+                 <li id="foto05"><span>Vários tipos de lente</span ></li>
+
+                 <li id="foto06"><span>Informações importantes</span></li>
+                
+            </ul>
+        </div>
+
+ <!--rodapé-->
+        <footer id="rodape"><p>Site Criado por <a href="https://www.linkedin.com/in/soares-douglass/" target="_blank">Douglas Soares</a> para atividade em aula do <a href="https://www.youtube.com/cursoemvideo" target="_blank">Cursoemvideo</a></p> </footer>
+    </div>
+</body>
+</html>
